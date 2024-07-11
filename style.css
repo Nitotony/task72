@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+.one{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+input{
+    background-color: rgb(220, 226, 226);
+    border: none;
+    padding: 10px;
+}
+
+
+
+.two{
+    display: flex;
+    flex-direction: column;
+}
+.names{
+    display: flex;
+    justify-content: space-between;
+}
+.email1{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+
+}
+
+.check{
+    display: flex;
+    gap: 400px;
+}
+
+#special{
+    display: none;
+}
+button{
+    height: 70px;
+  width: 100%;
+    display: flex;
+    margin: 20px auto;
+    
+    background-color: green;
+    color: white;
+    
+}
+
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    margin: 100px auto;
+}
+
+.logo img{
+
+    width: 200px;
+    height: 100px;
+    display: flex;
+    margin: 10px auto; 
+    object-fit: cover;
+
+}
